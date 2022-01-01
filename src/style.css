@@ -3,28 +3,42 @@
     src: url('./LuxuriousRoman-Regular.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
-  }
+}
+@font-face {
+    font-family: 'MyFont2';
+    src: url('./JosefinSans-Italic-VariableFont_wght.ttf') format('truetype'),
+        url('JosefinSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 
 html{
+    
     height: 100%;
-    background-image: url('./background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center center;
+    
 }
 body{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center center;
 }
 
 .init-header{
     display: flex;
     font-family: 'MyFont';
+    font-weight:900;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: rgb(80, 80, 156);
     font-size: 80px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
     height: 175px;
     width: 100%;
     border-radius: 8px;
@@ -40,9 +54,38 @@ body{
 }
 
 button{
-    color:white;
-    background: none;
-    background-color: rgb(80, 80, 156);
-    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(80, 80, 156);
+    background-color: rgb(255, 255, 255);
 
+    border: none;
+    font-family: 'MyFont2';
+    
+    width: 80px;
+    font-size: 15px;
+    border-radius: 8px;
+    
+}
+button:focus{
+    background-color: rgb(244, 248, 0);
+}
+.home-board{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.6);
+    border: 2px solid red;
+    width: 500px;
+    height: 1000px;
+}
+.home-title{
+    text-align: center;
+    color: white;
+    font-family: 'MyFont2';
+    font-size: 20px ;
 }

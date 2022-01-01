@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     initial: './src/initial.js',
+    home: './src/home.js',
   },
   devtool: 'inline-source-map',
   devServer: {

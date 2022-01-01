@@ -11,6 +11,7 @@ const initialize = () =>{
     head.appendChild(optionButtons);
 
     const homeButton = document.createElement('button');
+    homeButton.classList.add('home-button');
     const menuButton = document.createElement('button');
     const contactButton = document.createElement('button');
 
