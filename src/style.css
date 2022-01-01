@@ -1,0 +1,11 @@
+html{
+    height: 100%;
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+
+.hello{
+    color:red;
+}
