@@ -1,14 +1,13 @@
 import './style.css';
 import Icon from './background.jpg';
+import initialize from './initial'; 
+
+initialize();
 
 
-function component() {
-    const element = document.createElement('div');
-    element.innerHTML = "oooooo";
-    element.classList.add('hello');
 
-    return element;
-}
+
+
 
 
 
