@@ -57,7 +57,7 @@ body{
 button{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     color:rgb(15, 15, 29);
     background-color: rgb(255, 255, 255);
 
@@ -68,11 +68,11 @@ button{
     font-size: 15px;
     border-radius: 8px;
     
-}
+} 
 button:focus{
     background-color: rgb(244, 248, 0);
 }
-.home-board{
+.home-board, .menu-board{
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -84,6 +84,12 @@ button:focus{
     border: 2px solid red;
     width: 500px;
     height: 650px;
+}
+.home-board{
+    height: 650px;
+}
+.menu-board{
+    height: 1000px;
 }
 .home-title{
     
@@ -112,4 +118,28 @@ button:focus{
 }
 .location-title{
 
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+.menu-item{
+    margin-top: 20px;
+    padding: 25px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-item:hover{
+    background-color: rgba(185, 168, 168, 0.7);
+}
+.item-info{
+    margin-top: 10px;
+    color: white;
+    font-family: 'MyFont2';
+    font-size: 25px;
+    
 }

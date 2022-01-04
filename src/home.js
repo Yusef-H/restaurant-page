@@ -1,4 +1,6 @@
 const homeTab = () => {
+    
+
     const board = document.createElement('div');
     board.classList.add('home-board');
 

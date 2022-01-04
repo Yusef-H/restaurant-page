@@ -13,7 +13,9 @@ const initialize = () =>{
     const homeButton = document.createElement('button');
     homeButton.classList.add('home-button');
     const menuButton = document.createElement('button');
+    menuButton.classList.add('menu-button');
     const contactButton = document.createElement('button');
+    contactButton.classList.add('contact-button');
 
     homeButton.innerHTML = "Home";
     menuButton.innerHTML = "Menu";
